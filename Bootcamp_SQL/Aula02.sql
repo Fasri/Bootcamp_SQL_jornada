@@ -32,10 +32,18 @@ SELECT * FROM customers WHERE country='Germany' AND (city='Berlin' OR city='Aach
 
 SELECT * FROM customers WHERE country<>'Germany' AND country<>'USA';
 
+SELECT * FROM products WHERE unit_price < 20
 
+SELECT * FROM products WHERE unit_price > 100
 
+SELECT * FROM products WHERE unit_price <= 50
 
+SELECT * FROM products WHERE unit_price >= 25
 
+SELECT * FROM products 	WHERE unit_price <> 48
 
+SELECT * FROM products
+WHERE unit_price >= 50 AND unit_price < 100;
 
+v
 
